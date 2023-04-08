@@ -1,4 +1,3 @@
-from tkinter.tix import Form
 import torch
 
 import os
@@ -123,11 +122,11 @@ class MergeBlockWeighted:
             else:
                 count_target_of_basealpha = count_target_of_basealpha + 1
 
-            theta_0[key] = (1 - current_alpha) * theta_0[key] + current_alpha * theta_1[key]#ºÏ³É£¡
+            theta_0[key] = (1 - current_alpha) * theta_0[key] + current_alpha * theta_1[key]#åˆæˆï¼
 
         for key in tqdm(theta_1.keys(), desc="Stage 2/2"):
             if "model" in key and key not in theta_0:
-                theta_0.update({key:theta_1[key]})#²¹È«£¨Èç¹ûÓĞBÓĞ±ÈA¶àµÄ²ãµÄ»°£©
+                theta_0.update({key:theta_1[key]})#è¡¥å…¨ï¼ˆå¦‚æœæœ‰Bæœ‰æ¯”Aå¤šçš„å±‚çš„è¯ï¼‰
         
         model_out.model.load_state_dict(theta_0)
 
