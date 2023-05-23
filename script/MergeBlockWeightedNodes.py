@@ -131,3 +131,11 @@ class MergeBlockWeighted:
         model_out.model.load_state_dict(theta_0)
 
         return (model_out,)
+
+NODE_CLASS_MAPPINGS = {
+    "MergeBlockWeighted": MergeBlockWeighted
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "MergeBlockWeighted": "Block weight"
+}
