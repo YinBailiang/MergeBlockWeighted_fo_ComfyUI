@@ -1,0 +1,14 @@
+[project]
+name = "mergeblockweighted_fo_comfyui"
+description = "Nodes: MergeBlockWeighted"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "MergeBlockWeighted_fo_ComfyUI"
+Icon = ""
