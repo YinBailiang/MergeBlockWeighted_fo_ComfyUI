@@ -9,6 +9,6 @@ Repository = "https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "yin-bailiang"
 DisplayName = "MergeBlockWeighted_fo_ComfyUI"
 Icon = ""
