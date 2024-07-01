@@ -1,7 +1,7 @@
 [project]
 name = "mergeblockweighted_fo_comfyui"
 description = "Nodes: MergeBlockWeighted"
-version = "1.0.0"
+version = "1.0.1"
 license = "LICENSE"
 
 [project.urls]
