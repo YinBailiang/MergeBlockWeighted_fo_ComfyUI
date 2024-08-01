@@ -2,7 +2,7 @@
 name = "mergeblockweighted_fo_comfyui"
 description = "Nodes: MergeBlockWeighted"
 version = "1.0.1"
-license = "LICENSE"
+license = { file = "LICENSE" }
 
 [project.urls]
 Repository = "https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI"
