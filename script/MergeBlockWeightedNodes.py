@@ -14,7 +14,7 @@ import numpy as np
 
 import comfy.samplers
 import comfy.sd
-from comfy.sd import ModelPatcher
+from comfy.model_patcher import ModelPatcher
 import comfy.utils
 
 import comfy.clip_vision
